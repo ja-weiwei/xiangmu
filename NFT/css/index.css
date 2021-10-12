@@ -1,0 +1,470 @@
+html,
+body,
+h2,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* header 部分*/
+
+header {
+    height: 695px;
+    background: url("../img/banner.png") no-repeat center 80px/100%;
+}
+
+.head-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head-content .head-flex {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-flex .hfa {
+    display: flex;
+    align-items: center;
+}
+
+.head-flex .hfa h2 {
+    font-size: 22px;
+    font-family: Axiforma;
+    font-weight: 400;
+    color: #333333;
+    margin: 0 27px 0 6px;
+}
+
+.head-flex .hfa img:last-of-type {
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+}
+
+.head-flex .hfa span {
+    font-size: 13px;
+    font-family: Axiforma;
+    font-weight: 400;
+    color: #333333;
+}
+
+.head-flex .hfb a {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: bolder;
+    color: #333333;
+    margin-right: 59px;
+}
+
+.head-flex .hfb a:last-of-type {
+    margin-right: 0;
+}
+
+
+/* DeFi 部分*/
+
+.defi-content {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 77px 0 104px;
+}
+
+.defi-content h2 {
+    width: 926px;
+    height: 124px;
+    font-size: 52px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #000;
+    line-height: 61px;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.tu-biao {
+    height: 53px;
+}
+
+.defi-left .tu-biao {
+    width: 375px;
+}
+
+.defi-left .tu-biao:last-of-type {
+    height: 25px;
+}
+
+.defi-right .tu-biao {
+    width: 535px;
+}
+
+.swen {
+    width: 502px;
+    height: 24px;
+    font-size: 24px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #333333;
+    line-height: 22px;
+    margin-left: 14px;
+}
+
+
+/* What 部分 */
+
+.what {
+    height: 630px;
+    background: #F9F8F6 url("../img/kuang.png")no-repeat center 50px;
+}
+
+.what .what-content {
+    width: 1200px;
+    height: 492px;
+    margin: 0 auto;
+    padding: 113px 95px 56px 64px;
+    box-sizing: border-box;
+}
+
+.what-content .what-right {
+    width: 645px;
+}
+
+.what-content .what-right h2 {
+    height: 29px;
+    font-size: 36px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #333333;
+    line-height: 28px;
+    margin: 27px 0 42px;
+}
+
+.what-content .what-right h4 {
+    height: 65px;
+    font-size: 24px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #333333;
+    line-height: 34px;
+    margin-bottom: 33px;
+}
+
+.what-content .what-right p {
+    width: 644px;
+    height: 177px;
+    font-size: 20px;
+    font-family: Axiforma;
+    font-weight: 400;
+    color: #666666;
+    line-height: 37px;
+}
+
+
+/* start 部分 */
+
+.start-content {
+    width: 1200px;
+    margin: 77px auto 86px;
+}
+
+.start-content h2 {
+    height: 52px;
+    font-size: 52px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #333333;
+    line-height: 51px;
+    margin: 0 auto 35px;
+    text-align: center;
+}
+
+.start-content p {
+    width: 1197px;
+    height: 45px;
+    font-size: 22px;
+    font-family: Axiforma;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+
+.start-content .start-flex {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.start-flex .flex-content {
+    background: url("../img/juxing.png") no-repeat;
+    width: 282px;
+    height: 472px;
+    display: flex;
+}
+
+.flex-content .bai {
+    width: 270px;
+    height: 460px;
+    background: #fff;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.bai .fl {
+    width: 270px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.bai .fl span {
+    font-size: 28px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
+    margin: 37px auto 30px;
+}
+
+.bai .flex-one span {
+    width: 177px;
+    height: 22px;
+}
+
+.bai .flex-two span {
+    width: 227px;
+    height: 22px;
+}
+
+.bai .flex-three span {
+    width: 220px;
+    height: 28px;
+}
+
+.bai .flex-four span {
+    width: 244px;
+    height: 29px;
+}
+
+.bai .fl img {
+    width: 220px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.bai .fl .nei-flex {
+    margin: 13px auto 0;
+    width: 223px;
+    height: 55px;
+    display: flex;
+}
+
+.bai .fl .nei-flex div span {
+    width: 116px;
+    font-size: 21px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #666666;
+    margin-left: 8px;
+    line-height: 33px;
+}
+
+.bai .fl .nei-flex div span:last-of-type {
+    color: #FFCB00;
+}
+
+.flex-content .bai .fl .nei-flex img {
+    width: 55px;
+    height: 56px;
+}
+
+
+/* token 部分 */
+
+.token {
+    background: #F9F8F6;
+}
+
+.token .token-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 67px 0 92px;
+}
+
+.token .token-content h2 {
+    width: 309px;
+    height: 41px;
+    font-size: 52px;
+    font-family: Axiforma;
+    font-weight: 500;
+    color: #333333;
+    line-height: 40px;
+    margin: 0 auto 73px;
+}
+
+.tokenx .token-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.tokenx .token-flex span {
+    width: 219px;
+    height: 25px;
+    font-size: 30px;
+    font-family: Axiforma;
+    font-weight: 600;
+    color: #141414;
+    margin-left: 26px;
+}
+
+.tokenx .neirong {
+    width: 557px;
+    height: 229px;
+    font-size: 24px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #141414;
+    line-height: 30px;
+}
+
+
+/* yejiao 部分 */
+
+.yewei .yewei-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 76px 0 47px;
+}
+
+.yewei-content .yewei-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yewei-flex .left-wen {
+    font-size: 24px;
+    font-family: Axiforma;
+}
+
+.yewei-flex .left-wen h4 {
+    width: 373px;
+    height: 79px;
+    font-weight: 400;
+    color: #141414;
+    line-height: 36px;
+}
+
+.yewei-flex .left-wen p {
+    width: 295px;
+    height: 134px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 50px;
+}
+
+.yewei-flex .bing {
+    position: relative;
+    margin-right: 232px;
+}
+
+.bing .duis span {
+    margin: -7px 0 0 10px;
+}
+
+.bing .duiz span {
+    margin: -7px 0 0 10px;
+}
+
+.bing .duix span {
+    margin: 6px 0 0 10px;
+}
+
+.duis {
+    position: absolute;
+    top: 35px;
+    left: 198px;
+    display: flex;
+    width: 289px;
+}
+
+.duiz {
+    position: absolute;
+    top: 118px;
+    left: 224px;
+    display: flex;
+    width: 289px;
+}
+
+.duiz img {
+    height: 5px;
+    width: 98px;
+    overflow: hidden;
+}
+
+.duix {
+    position: absolute;
+    top: 193px;
+    left: 193px;
+    display: flex;
+    width: 276px;
+}
+
+.yewei-content .dog {
+    display: block;
+    margin: 97px auto 74px;
+}
+
+.wei-flex {
+    display: flex;
+    align-items: center;
+}
+
+.wei-flex .flexl {
+    display: flex;
+    align-items: center;
+}
+
+.wei-flex .flexl span {
+    width: 136px;
+    height: 25px;
+    font-size: 31px;
+    font-family: Axiforma;
+    font-weight: 400;
+    color: #333333;
+    line-height: 25px;
+    margin: 0 80px 0 8px;
+}
+
+.wei-flex .flexr img {
+    margin-right: 39px;
+}
+
+.wei-flex .flexr img:last-of-type {
+    margin-right: 0;
+}

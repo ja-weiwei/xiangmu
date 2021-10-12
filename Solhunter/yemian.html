@@ -1,0 +1,210 @@
+<html>
+	<head>
+		<title>页面</title>
+		<style>
+			body{
+				margin:0;
+				padding:0;
+			}
+			.di {
+				width: 100%;
+				height: 100%;
+				background-color: #1E1C2A;
+				position: relative;
+				padding:0 47px;
+			}
+			.left {
+				width: 320px;
+				height: 100%;
+				position: absolute;
+				background-color: #252837;
+				left: 0;
+				top:0;
+			}
+			.logo img{
+				width:210px;
+				margin:22px 55px;
+			}
+			.left h4{
+				font-size:13px;
+				color:#999999;
+				text-align:center;
+			}
+			.lianjie{
+				margin:50px 0;
+				height:219px;
+				background-color:#41BB96;
+				opacity: 0.1;
+			}
+			.zhu{
+				
+				position: absolute;
+				height:100%;
+				width:100%;
+				margin-left:320px;
+				
+				
+			}
+			.tou{
+				line-height:200px;
+				text-align:center;
+			}
+			.tou img{
+				width:48px;
+				margin-top:91px;
+				float:left;
+			}
+			 span{
+				font-family: Poppins;
+				font-size: 36px;
+				font-weight: bold;
+				color: #FFFFFF;
+			}
+			#mian{
+			position: absolute;
+			width: 100%;
+			height: 340px;
+			background-color:#252837;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			border-radius:30px;
+			}
+			
+			#mian div{
+				color: #FFFFFF;
+				height: 170px;
+				background-color:#31303E;
+				border-radius:20px;
+				padding:40px 0 0 30px;
+			}
+			.he1 {
+				width: 470px;
+			}
+			.he2{
+				width: 360px;
+			}
+			.he3{
+				width: 240px;
+			}
+			.he4{
+				width: 240px;
+			}
+			.ming{
+				font-size: 20px;
+				font-family: Poppins;
+				color: #FFFFFF;
+			}
+			.ming1{
+				font-size: 32px;
+				font-family: Poppins;
+				color: #FFFFFF;
+			}
+			.committed{
+				position: absolute;
+				margin-top:380px;
+				height:100px;
+				width: 96%;
+				background-color:#252837;
+				border-radius:30px;
+				line-height:100px;
+				padding:0 37px;
+			}
+			.s1 {
+				font-size:20px;
+			}
+			.s2 {
+				font-size:32px;
+			}
+			.s3{
+				float:right;
+			}
+			.select{
+				position: absolute;
+				margin-top:520px;
+				height:308px;
+				width: 96%;
+				background-color:#252837;
+				border-radius:30px;
+				padding:34px 40px;
+			}
+			.select p{
+				margin:0;
+				font-family: Poppins;
+				color:#FFFFFF;
+				font-size: 24px;
+			}
+			input {
+				padding:21px;
+				margin-top:50px;
+				border:1px solid #006C4F;
+				background-color:#31303E;
+				width:1125px;
+				height:60px;
+				color:#999999;
+			}
+			button{
+				width:1400px;
+				height:60px;
+				background-color:#41BB96;
+				margin-top:50px;
+				border-radius: 30px;
+				right:50%;
+				left:50%;
+				color:#FFFFFF;
+				font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+			<div class="di">
+				<div class="left">
+					<div class="logo">
+						<img src="https://local-app.solhunter.finance/_next/image?url=%2Fimages%2Flogo.png&w=640&q=75"/>
+						<h4>This project is in beta.Use at your own risk.<h4>
+						<div class="lianjie">
+						</div>
+					</div>
+				</div>
+				<div class="zhu">
+					<div class="tou">
+						<img src="https://local-app.solhunter.finance/_next/image?url=%2Fimages%2Fback.png&w=96&q=75"/>
+						<span>AAA Token</span>
+					</div>
+					<div id="mian">
+						<div class="he1">
+							<p class="ming">Tokens Oddered</p>
+							<p class="ming1">12345678	AAA(100 ETH)</p>
+						</div>
+						<div class="he2">
+							<p class="ming">Ratio</p>
+							<p class="ming1">1 ETH=10000 AAA</p>
+						</div>
+						<div class="he3">
+							<p class="ming">Min Allocation</p>
+							<p class="ming1">0.25 ETH</p>
+						</div>
+						<div class="he4">
+							<p class="ming">Max Aocation</p>
+							<p class="ming1">1.25 ETH</p>
+						</div>
+					</div>
+					<div class="committed">
+						<span class="s1 ">Total ETH committed: </span>
+						<span class="s2">5,375,198.0423 HUNT</span>
+						<span class="s2 s3">5,375,198.0423 HUNT</span>
+						<span class="s1 s3">My ETH committed：</span>
+					</div>
+					<div class="select">
+						<p>Join Pool</p>
+						<div>
+							<input type="text" name="FirstName" value="Search..." >
+							<span>Min</span>
+							<span>Max</span>
+						</div>
+						<button type="button">Submit</button>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>

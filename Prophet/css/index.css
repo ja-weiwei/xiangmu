@@ -1,0 +1,367 @@
+html,
+body,
+p,
+h2,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.head-di {
+    background: url("../img/head.png") no-repeat;
+    background-size: 100% 100%;
+    min-width: 1200px;
+    padding-bottom: 225px;
+}
+
+
+/* 头部导航栏*/
+
+.head-centent {
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.head-centent .head-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-flex .head-daohang {
+    margin-left: 125px;
+}
+
+.head-flex .head-daohang a {
+    height: 21px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.head-flex .head-daohang a:hover {
+    color: #01FFBD;
+}
+
+.head-daohang a:nth-last-of-type(2) {
+    margin: 0 54px;
+}
+
+.head-flex .head-tubiao {
+    width: 316px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 头部内容*/
+
+.head-centent p {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.head-centent p:first-of-type {
+    height: 123px;
+    font-size: 124px;
+    line-height: 123px;
+    margin-top: 194px;
+}
+
+.head-centent p:last-of-type {
+    width: 556px;
+    height: 97px;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 30px 0 37px;
+}
+
+.head-centent button {
+    width: 300px;
+    height: 80px;
+    background: #01FFBD;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 48px;
+}
+
+
+/*Feature 部分*/
+
+.feature {
+    padding: 128px 0 30px;
+}
+
+.feature h2 {
+    text-align: center;
+    color: #000;
+    height: 41px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 41px;
+}
+
+.feature-flex {
+    width: 1195px;
+    margin: 0 auto;
+    margin-top: 109px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature-flex .flexq {
+    width: 580px;
+    height: 280px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 73px;
+    position: relative;
+}
+
+.feature-flex .flexq img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.feature-flex .flexq p {
+    text-align: center;
+}
+
+.feature-flex .flexq p:first-of-type {
+    height: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 108px 0 27px;
+}
+
+.feature-flex .flexa p:first-of-type {
+    color: #41BB96;
+}
+
+.feature-flex .flexb p:first-of-type {
+    color: #79ABD2;
+}
+
+.feature-flex .flexc p:first-of-type {
+    color: #BD83E8;
+}
+
+.feature-flex .flexd p:first-of-type {
+    color: #FA62FC;
+}
+
+.feature-flex .flexq p:last-of-type {
+    height: 41px;
+    font-size: 16px;
+    font-family: Axiforma;
+    font-weight: 600;
+    color: #5B9E9B;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.feature-flex .flexa p:last-of-type {
+    width: 448px;
+}
+
+.feature-flex .flexb p:last-of-type {
+    width: 441px;
+}
+
+.feature-flex .flexc p:last-of-type {
+    width: 394px;
+}
+
+.feature-flex .flexd p:last-of-type {
+    width: 410px;
+}
+
+
+/*框架图*/
+
+.frames {
+    height: 623px;
+    background: #F0F8F6;
+    padding: 54px 0;
+    position: relative;
+}
+
+.frames img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*roadmap*/
+
+.roadmap {
+    padding: 87px 0 188px;
+    position: relative;
+}
+
+.roadmap h2 {
+    height: 55px;
+    font-size: 54px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.roadmap .roadmap-content {
+    width: 1320px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.roadmap .nav-content {
+    width: 1088px;
+    margin: 0 auto;
+}
+
+.nav-content .roadmap-nav {
+    display: flex;
+    height: 365px;
+}
+
+.nav-content .roadmap-nav ul {
+    width: 310px;
+}
+
+.nav-content .roadmap-nav ul li {
+    position: relative;
+    padding-left: 25px;
+    height: 35px;
+    width: 263px;
+}
+
+.nav-content .roadmap-nav ul li {
+    margin-bottom: 18px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 17.5px;
+}
+
+.roadmap-nav ul li::before {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    content: "";
+    width: 8px;
+    height: 7px;
+    border-radius: 50%;
+    background: #01B563;
+    display: block;
+}
+
+.roadmap-nav ul li:last-of-type,
+.roadmap-nav ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.nav-content .roadmap-nav ul:nth-last-of-type(2),
+.nav-content .roadmap-nav ul:nth-last-of-type(4) {
+    align-self: flex-end;
+}
+
+.roadmap-content img {
+    position: absolute;
+}
+
+.day-content {
+    width: 888px;
+    height: 234px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+}
+
+.day-content .daya:nth-last-of-type(1),
+.day-content .daya:nth-last-of-type(3) {
+    align-self: flex-end;
+}
+
+.day-content .daya {
+    width: 78px;
+    height: 73px;
+}
+
+.day-content .daya p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 39px;
+}
+
+
+/* Contact Us 部分*/
+
+.contact {
+    background: #232323;
+}
+
+.contact .contact-content {
+    width: 800px;
+    margin: 0 auto;
+    padding: 67px 0 122px;
+}
+
+.contact-content h2 {
+    height: 42px;
+    font-size: 54px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 39px;
+    text-align: center;
+}
+
+.contact-content .contact-email {
+    width: 800px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin: 85px 0 106px;
+}
+
+.contact-email p {
+    height: 31px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #5B9E9B;
+    line-height: 100px;
+    text-align: center;
+}
+
+.contact-content .contact-nav {
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}

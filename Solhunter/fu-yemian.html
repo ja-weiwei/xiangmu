@@ -1,0 +1,478 @@
+<html>
+	<head>
+	<title>练习</title>
+	<style>
+		body,h1,h4{
+			margin:0;
+			font-family: Axiforma;
+		}
+		a{
+			text-decoration:none;
+		}
+		.top{
+			background:url("./banner.png") no-repeat center center;
+			height:963px;
+		}
+		.header{
+			display:flex;
+		}
+		.content{
+			margin:0 auto;
+			width:1213px;
+		}
+		.logo{
+			margin:37px 0 0;
+		}
+		.nav{
+			display:inline-block;
+			margin:59px 104px 0 180px;
+		}
+		.nav a{
+			margin-right: 60px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+		.nav a:hover{
+			color: #FFFFFF;
+		}
+		a:last-child{
+			margin-right:0px;
+		}
+		.medi{
+			margin-top:45px;
+		}
+		.medi img{
+			margin-right:29px;
+		}
+		.medi img:last-child{
+			margin-right:0px;
+		}
+		h1{
+			color:#fff;
+			width: 709px;
+			height: 194px;
+			font-size: 50px;
+			font-weight: 600;
+			margin-top: 152px;
+		}
+		h4{
+			color:#fff;
+			width: 522px;
+			font-size: 24px;
+			font-weight: 400;
+			line-height:50px;
+			margin-top:43px;
+		}
+		button{
+			width:292px;
+			height:90px;
+			background: linear-gradient(90deg, #05E2A3, #D839EB);
+			border-radius: 45px;
+			margin-top:79px;
+			font-size: 27px;
+			font-weight: 600;
+			color: #FFFFFF;
+		}
+		.strengths{
+			height:1661px;
+			position:relative;
+		}
+		.left-background, .right-background,.span{
+			position:absolute;
+		}
+		.left-background{
+			width: 828px;
+			height: 1245px; 
+			top:79px;
+		}
+		.right-background{
+			width: 690px;
+			height: 1042px; 
+			right:0;
+			bottom:0;
+			margin-left:402px;
+		}
+		.span{
+			left:369px;
+			top:264px;
+			font-size: 70px;
+			font-weight: 600;
+			background: linear-gradient(-90deg, #D739EA 0%, #02E4A9 97.6806640625%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		.body{
+			width:390px;
+			height:500px;
+			background:#fff;
+			box-shadow: -1px 5px 35px 0px rgba(0, 0, 0, 0.1);
+			border-radius: 20px;
+			display:inline-block;
+			position:absolute;
+		}
+		.body-noe{
+			top:416;
+			left:544px;
+		}
+		.body-two{
+			top:150px;
+			right:518px;
+		}
+		.body-three{
+			top:984px;
+			left:527px;
+		}
+		.body-four{
+			top:765px;
+			right:508px;
+		}
+		.body img{
+			position:absolute;
+			transform:translate(130px,86px);
+		}
+		.p1{
+			text-align:center;
+			font-size: 26px;
+			line-height: 39px;
+			margin:238px auto 23px;
+		}
+		.P2{
+			
+			text-align:center;
+			font-size: 16px;
+			font-weight: 400;
+			color:#333333;
+		}
+
+		.body-noe :nth-child(2){
+			color:#BD83E8;
+		}
+		.body-noe :nth-child(3){
+		margin:26px auto;
+		width: 278px;
+		height: 63px;
+		}
+		.body-two :nth-child(2){
+			color:#79ABD1;
+		}
+		.body-two :nth-child(3){
+			margin:23px auto;
+			width: 292px;
+			height: 38px;
+		}
+		.body-three :nth-child(2){
+			color:#41BB96;
+		}
+		.body-three :nth-child(3){
+			margin:23px auto;
+			width: 280px;
+			height: 63px;
+		}
+		.body-four :nth-child(2){
+			color:#41BB96;
+		}
+		.body-four :nth-child(3){
+			margin:23px auto;
+			width: 320px;
+			height: 89px;
+		}
+		.roadmap{
+			height:880px;
+			background: #F7F7F7 url("body.png") no-repeat 176px 160px;
+			padding-top:83px;
+			position:relative;
+		}
+		h3{
+			width: 238px;
+			height: 48px;
+			margin:0px auto;
+			font-size: 48px;
+			font-weight: 600;
+			color: #333333;
+		}
+		.body-icon{
+			position:absolute;
+			top:300px;
+			left:369px;
+			height:221px;
+			display:flex;
+			flex-direction:row;
+		}
+		.body-icon li{
+			position: relative;
+			width:260px;
+			height:221px;
+			margin-right:30px;
+			list-style:none;
+			align-items:center;
+			background-size:100% 100%;
+			font-size: 30px;
+			color: #FFFFFF;
+			font-weight: 600;
+		}
+		.body-icon li:nth-child(1){
+			background-image:url("body1.png")
+		}
+		.body-icon li:nth-child(2){
+			background-image:url("body2.png")
+		}
+		.body-icon li:nth-child(3){
+		background-image:url("body3.png")
+		}
+		.body-icon li:nth-child(4){
+			background-image:url("body4.png")
+		}
+		.body-icon li span:nth-child(1){
+			position: absolute;
+			top: 40%;
+			left: 28%;
+			transform: translate(0, -50%);
+		} 
+		.body-icon li span:nth-child(2){
+			position: absolute;
+			top: 56%;
+			left: 34%;
+			transform: translate(0, -50%);
+		} 
+		.body-text{
+			display:flex;
+			flex-direction:row;
+			margin-top:441px;
+			margin-left:372px;
+		}
+		.body-text ul li{ 
+			list-style: none;
+			font-size: 14px;
+			position: relative;
+			padding-left:25px;
+			height:40px;
+		}
+		.body-text ul li::before{
+			position:absolute;
+			left:0;
+			top:5px ;
+			content: "";
+			width: 8px;
+			height: 7px;
+			border-radius:50%;
+			background:#01B563;
+			display:block;
+		}
+		.body-text1{
+			width:300px;
+		}
+		.body-text2{
+			margin-left:-25px;
+			width:360px;
+		}
+		.body-text3{
+			margin-left:-35px;
+			width:300px;
+		}
+		.body-text4{
+			margin-left:-10px;
+			width:300px;
+		}
+		.contact-usemap{
+			position:relative;
+			height:733px;
+			width:100%;
+			background-color: #232323;
+		}
+		.icon1{
+			display:inline-block;
+			margin-top:561px;
+			margin-left:908px;
+			height:80px;
+			display:flex;
+			flex-direction:row;
+		}
+		.icon1 li{
+			width:80px;
+			height:80px;
+			margin:0 26px;
+			list-style:none;
+			align-items:center;
+			background-size:100% 100%;
+			list-style:green;
+		}
+		.icon1 li:nth-child(1){
+			background-image:url("1.png")
+		}
+		.icon1 li:nth-child(2){
+			background-image:url("2.png")
+		}
+		.icon1 li:nth-child(3){
+			background-image:url("3.png")
+		}
+		.icon1 li:nth-child(4){
+			background-image:url("4.png")
+		}
+		.icon1 li:nth-child(5){
+			background-image:url("5.png")
+		}
+
+		.logo1{
+			position:absolute;
+			top:561px;
+			left:380px;
+			width:247px;
+			height:83px;
+			background-image:url("962.png");
+			display:inline-block;
+		}
+		.contact span:nth-child(1){
+			position:absolute;
+			left:380px;
+			top:173px;
+			color:#FFF;
+			font-size: 48px;
+			font-weight: 600;
+		}
+		.contact span:nth-child(3){
+			position:absolute;
+			left:380px;
+			top:263px;
+			background-color:#FFF;
+			color:#5B9E9B;
+			font-size: 30px;
+			font-weight: 600;
+			padding:35px 45px;
+			border-radius: 50px;
+		}
+		.bottom-big{
+			position:absolute;
+			top:42px;
+			left:990px;
+			width:538px;
+			height:460px;
+			background-image:url("botton.png");
+		}
+	</style>
+	</head>
+	<body>
+		<div class="top">
+			<div class="content">
+				<div class="header">
+					<img class="logo" src="./962.png" aroset="">
+					<div class="nav">
+						<a href="#">Home</a>
+						<a href="#">Strengths</a>
+						<a  href="#">Roadmap</a>
+					</div>
+					<div class="medi">
+						<img src="1.png" alt="">
+						<img src="2.png" alt="">
+						<img src="3.png" alt="">
+						<img src="4.png" alt="">
+						<img class="active" src="5.png" alt="">
+					</div>
+				</div>
+				<h1>
+					Hand-picked cross-chain Solana-basedasset auction platform
+				</h1>
+				<h4>
+					including IDO, NFT, real assets auction, etc., 
+					let’s hunt the most promising prey here. 
+				</h4>
+				<button type="button" autofocus onclick="alert('Hello world!')">Launch DAPP</button>
+			</div>
+		</div>
+		<div class="strengths">
+			<img class="left-background" src="./body-left.png" aroset="">
+			<img class="right-background" src="./body-right.png" aroset="">
+			<span class="span">Strengths</span>
+			<div class="body-noe body">
+				<img src="kuai1.png"/>
+				<p class="p1">Multiple auction methods</p>
+				<p class="p2">Fixed price Auction, Dutch Auction, English Auction, Vickrey Auction, Quick Win Auction, etc.</p>
+			</div>
+			<div class="body-two body">
+				<img src="kuai2.png"/>
+				<p class="p1">Multiple Auction Assets</p>
+				
+				<p class="p2">Including but not limited to IDO, NFT and other real assets</p>
+			</div>
+			<div class="body-three body">
+				<img src="kuai3.png"/>
+				<p class="p1">Cross-chain</p>
+				<p class="p2">Support asset participation from multiple public chains </p>
+			</div>
+			<div class="body-four body">
+				<img src="kuai4.png"/>
+				<p class="p1">Best selection and insurance</p>
+				<p class="p2">We will form a DAO committee with the most supportive users, strictly select high-quality assets, and support the insurance system to prevent fraud</p>
+			</div>
+		</div>
+		<div class="roadmap">
+			<h3>Roadmap</h3>
+			<ul class="body-icon">
+				<li>
+					<span>2021</span>
+					<span>Q3</span>
+				</li>
+				<li>
+					<span>2021</span>
+					<span>Q4</span>
+				</li>
+				<li>
+					<span>2022</span>
+					<span>Q1</span>
+				</li>
+				<li>
+					<span>2022</span>
+					<span>Q2</span>
+				</li>
+			</ul>
+
+			<div class="body-text">
+				<div class="body-text1">
+					<ul>
+						<li>Solana verification node</li>
+						<li>fixed-price auction system launch</li>
+						<li>whitelist system launch</li>
+					</ul>
+				</div>
+				
+				<div class="body-text2">
+					<ul>
+						<li>private pool auction system launch</li>
+						<li>Staking, Yield Farm system launch</li>
+						<li>cross-chain support</li>
+						<li>DAO governance committee establishment</li>
+					</ul>
+				</div>
+				<div class="body-text3">
+					<ul>
+						<li>English Auction, Dutch Auction system launch</li>
+						<li>NFT auction</li>
+						<li>cross-chain assets participation</li>
+					</ul>
+				</div>
+				<div class="body-text4">
+					<ul>
+						<li>Vickrey Auction system launch</li>
+						<li>Insurance system</li>
+						<li>Real assets acution</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="contact-usemap">
+			<div class="contact">
+				<span>Contact Us</span><br>
+				<span>official@solhunter.finance</span>
+			</div>
+			<div>
+				<ul class="icon1">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="logo1"></div>
+				<div class="bottom-big"></div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,389 @@
+@import url("repeat.css");
+body {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+.fire-header {
+    background: url("../img/ditu.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 203px;
+}
+
+.fire-header .header-content {
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 56px;
+}
+
+.fire-header .header-content .fire-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fire-flex .fire-flex-logo a img {
+    width: 252px;
+}
+
+.header-content .fire-flex-img {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .fire-flex-img span {
+    width: 184px;
+    height: 48px;
+    border: 1px solid #FF164E;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.header-content .fire-flex-img img:first-of-type {
+    margin: 0 30px;
+}
+
+.fire-body p,
+.fire-body span {
+    text-align: center;
+}
+
+.fire-body p:nth-child(1) {
+    height: 49px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 80px;
+    line-height: 49px;
+}
+
+.fire-body p:nth-child(2) {
+    color: #FEFEFE;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 23px 0 18px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.fire-body p:nth-child(3) {
+    color: #FEFEFE;
+    font-size: 24px;
+    font-weight: 300;
+    height: 23px;
+    line-height: 23px;
+}
+
+.fire-body p:nth-child(4) {
+    font-size: 24px;
+    font-weight: 300;
+    height: 26px;
+    line-height: 26px;
+}
+
+.ge-duan {
+    width: 240px;
+    height: 4px;
+    background: #FF164E;
+    margin: 33px auto 46px;
+}
+
+.fire-body p span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF164E;
+}
+
+.two-tubiao {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+
+.two-tubiao .tubiao {
+    width: 127px;
+    height: 127px;
+}
+
+.two-tubiao .tubiao-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 122px;
+}
+
+.tubiao-one span {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.tubiao-two {
+    width: 179px;
+    height: 312px;
+}
+
+.tubiao-two img {
+    margin-left: 26px;
+}
+
+.two-tubiao .ferrum,
+.tubiao-two .network {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.tubiao-two .ferrum {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0 11px;
+}
+
+.tubiao-two .network {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 中部*/
+
+.central-content {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 132px;
+}
+
+.central-content .central-header {
+    width: 1120px;
+    height: 159px;
+    margin: 0 auto;
+    color: #FF164E;
+    background: url("../img/FIRE\ Staking.png");
+}
+
+.central-header-left p:first-of-type,
+.central-header-right p:first-of-type {
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 30px 0 29px;
+    box-sizing: border-box;
+}
+
+.central-header-left {
+    display: inline-block;
+    width: 600px;
+}
+
+.central-header-right {
+    display: inline-block;
+}
+
+.central-header-left p:last-of-type,
+.central-header-right p:last-of-type {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.central-header-left p span,
+.central-header-right p span {
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.central-content .central-flex {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.central-flex .central-flexa {
+    border: 1px solid #F94E18;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 60px 0 0 25px;
+    box-sizing: border-box;
+}
+
+.central-flex .central-flexb {
+    border: 1px solid #1F7D43;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 60px 0 0 25px;
+    box-sizing: border-box;
+}
+
+.central-flex .central-flexc {
+    border: 1px solid #C41482;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 60px 0 0 25px;
+    box-sizing: border-box;
+}
+
+.central-flex .central-flexd {
+    border: 1px solid #2E0EE5;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 60px 0 0 25px;
+    box-sizing: border-box;
+}
+
+.central-flex p:first-of-type {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.central-flex p:last-of-type {
+    margin-top: 130px;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.4;
+}
+
+.central {
+    position: relative;
+}
+
+.central-extra {
+    display: inline-block;
+}
+
+.central-extra p:first-of-type {
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 137px;
+}
+
+.central-extra p:first-of-type span:first-of-type {
+    font-size: 20px;
+}
+
+.central-extra span:after {
+    content: "SpiderDao";
+    color: #FF164E;
+}
+
+.central-extra p:first-of-type:after {
+    content: "):";
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: -14px;
+}
+
+.central-extra p:last-of-type {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FEFEFE;
+    opacity: 0.8;
+    margin: 23px 0 47px;
+}
+
+.central-extra ul {
+    height: auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: #FEFEFE;
+}
+
+.central-extra ul:last-of-type,
+.central-extra ul li:first-of-type {
+    margin-top: 20px;
+}
+
+.central-extra ul li {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.5;
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+    height: 45px;
+}
+
+.central-extra ul li::before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    content: "";
+    width: 8px;
+    height: 7px;
+    border-radius: 50%;
+    background: #FF164E;
+    display: block;
+}
+
+.right-img {
+    position: absolute;
+    top: 43px;
+    left: 575px;
+    width: 788px;
+    height: 674px;
+    background: url("../img/body.png");
+}
+
+
+/* 页脚 */
+
+.footer {
+    margin-top: 198px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.footer-flexa .footer-img {
+    width: 463px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.footer-flexa .footer-img img {
+    width: 57px;
+    height: 57px;
+}
+
+.footer-flexb {
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-flexb .flexb-go {
+    width: 240px;
+    height: 60px;
+    background: #FFFCFC;
+    border-radius: 10px;
+    color: #17181B;
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+    justify-content: center;
+}
+
+.footer-flexb .flexb-one {
+    margin-bottom: 43px;
+}
+
+.footer-flexb .flexb-go img {
+    margin-right: 10px;
+}

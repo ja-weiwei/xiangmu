@@ -1,0 +1,312 @@
+<html>
+	<head>
+	<title>练习</title>
+	<style>
+		body,h1,h4{
+			margin:0;
+			font-family: Axiforma;
+		}
+		a{
+			text-decoration:none;
+		}
+		.top{
+			background:url("./banner.png") no-repeat center center;
+			height:963px;
+		}
+		.header{
+			display:flex;
+		}
+		.content{
+			margin:0 auto;
+			width:1213px;
+		}
+		.logo{
+			margin:37px 0 0;
+		}
+		.nav{
+			display:inline-block;
+			margin:59px 104px 0 180px;
+		}
+		.nav a{
+			margin-right: 60px;
+			color: rgba(255, 255, 255, 0.5);
+		}
+		.nav a:hover{
+			color: #FFFFFF;
+		}
+		a:last-child{
+			margin-right:0px;
+		}
+		.medi{
+			margin-top:45px;
+		}
+		.medi img{
+			margin-right:29px;
+		}
+		.medi img:last-child{
+			margin-right:0px;
+		}
+		h1{
+			color:#fff;
+			width: 709px;
+			height: 194px;
+			font-size: 50px;
+			font-weight: 600;
+			margin-top: 152px;
+		}
+		h4{
+			color:#fff;
+			width: 522px;
+			font-size: 24px;
+			font-weight: 400;
+			line-height:50px;
+			margin-top:43px;
+		}
+		button{
+			width:292px;
+			height:90px;
+			background: linear-gradient(90deg, #05E2A3, #D839EB);
+			border-radius: 45px;
+			margin-top:79px;
+			font-size: 27px;
+			font-weight: 600;
+			color: #FFFFFF;
+		}
+		.strengths{
+			height:1661px;
+			position:relative;
+		}
+		.left-background, .right-background,.span{
+			position:absolute;
+		}
+		.left-background{
+			width: 828px;
+			height: 1245px; 
+			top:79px;
+		}
+		.right-background{
+			width: 690px;
+			height: 1042px; 
+			right:0;
+			bottom:0;
+			margin-left:402px;
+		}
+		.span{
+			left:369px;
+			top:264px;
+			font-size: 70px;
+			font-weight: 600;
+			background: linear-gradient(-90deg, #D739EA 0%, #02E4A9 97.6806640625%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		.body{
+			width:390px;
+			height:500px;
+			background:#fff;
+			box-shadow: -1px 5px 35px 0px rgba(0, 0, 0, 0.1);
+			border-radius: 20px;
+			display:inline-block;
+			position:absolute;
+		}
+		.body-noe{
+			top:416;
+			left:544px;
+		}
+		.body-two{
+			top:150px;
+			right:518px;
+		}
+		.body-three{
+			top:984px;
+			left:527px;
+		}
+		.body-four{
+			top:765px;
+			right:508px;
+		}
+		.body img{
+			position:absolute;
+			transform:translate(130px,86px);
+		}
+		.p1{
+			text-align:center;
+			font-size: 26px;
+			line-height: 39px;
+			margin:238px auto 23px;
+		}
+		.P2{
+			
+			text-align:center;
+			font-size: 16px;
+			font-weight: 400;
+			color:#333333;
+		}
+
+		.body-noe :nth-child(2){
+			color:#BD83E8;
+		}
+		.body-noe :nth-child(3){
+		margin:26px auto;
+		width: 278px;
+		height: 63px;
+		}
+		.body-two :nth-child(2){
+			color:#79ABD1;
+		}
+		.body-two :nth-child(3){
+			margin:23px auto;
+			width: 292px;
+			height: 38px;
+		}
+		.body-three :nth-child(2){
+			color:#41BB96;
+		}
+		.body-three :nth-child(3){
+			margin:23px auto;
+			width: 280px;
+			height: 63px;
+		}
+		.body-four :nth-child(2){
+			color:#41BB96;
+		}
+		.body-four :nth-child(3){
+			margin:23px auto;
+			width: 320px;
+			height: 89px;
+		}
+		.roadmap{
+			height:880px;
+			background: #F7F7F7 url("body.png") no-repeat 176px 160px;
+			padding-top:83px;
+		}
+		h3{
+			width: 238px;
+			height: 48px;
+			margin:0px auto;
+			font-size: 48px;
+			font-weight: 600;
+			color: #333333;
+		}
+		.roadmap-background{
+			margin: 170px 0 0 369px;
+			width:1409px;
+			height:697px;
+			display: flex;
+		}
+		.roadmap-background img{
+			margin-right:29px;
+		}
+		.roadmap-background img:last-child{
+			margin-right:0px;
+		}
+		.roadmap-background .roadmap-con{
+			position: relative;
+		}
+		.roadmap-text{
+			position: absolute;
+			display: flex;
+			top: 0;
+			left: 0;
+			flex-direction: column;
+			width: 221px;
+			align-items: center;
+			justify-content: center;
+			height: 221px;
+		}
+
+	</style>
+	</head>
+	<body>
+		<div class="top">
+			<div class="content">
+				<div class="header">
+					<img class="logo" src="./962.png" aroset="">
+					<div class="nav">
+						<a href="#">Home</a>
+						<a href="#">Strengths</a>
+						<a  href="#">Roadmap</a>
+					</div>
+					<div class="medi">
+						<img src="1.png" alt="">
+						<img src="2.png" alt="">
+						<img src="3.png" alt="">
+						<img src="4.png" alt="">
+						<img class="active" src="5.png" alt="">
+					</div>
+				</div>
+				<h1>
+					Hand-picked cross-chain Solana-basedasset auction platform
+				</h1>
+				<h4>
+					including IDO, NFT, real assets auction, etc., 
+					let’s hunt the most promising prey here. 
+				</h4>
+				<button type="button" autofocus onclick="alert('Hello world!')">Launch DAPP</button>
+			</div>
+		</div>
+		<div class="strengths">
+			<img class="left-background" src="./body-left.png" aroset="">
+			<img class="right-background" src="./body-right.png" aroset="">
+			<span class="span">Strengths</span>
+			<div class="body-noe body">
+				<img src="kuai1.png"/>
+				<p class="p1">Multiple auction methods</p>
+				<p class="p2">Fixed price Auction, Dutch Auction, English Auction, Vickrey Auction, Quick Win Auction, etc.</p>
+			</div>
+			<div class="body-two body">
+				<img src="kuai2.png"/>
+				<p class="p1">Multiple Auction Assets</p>
+				
+				<p class="p2">Including but not limited to IDO, NFT and other real assets</p>
+			</div>
+			<div class="body-three body">
+				<img src="kuai3.png"/>
+				<p class="p1">Cross-chain</p>
+				<p class="p2">Support asset participation from multiple public chains </p>
+			</div>
+			<div class="body-four body">
+				<img src="kuai4.png"/>
+				<p class="p1">Best selection and insurance</p>
+				<p class="p2">We will form a DAO committee with the most supportive users, strictly select high-quality assets, and support the insurance system to prevent fraud</p>
+			</div>
+		</div>
+		<div class="roadmap">
+			<h3>Roadmap</h3>
+			<div class="roadmap-background">
+				<div class="roadmap-con">
+					<img src="body1.png"/>
+					<div class="roadmap-text">
+						<span>fd啊手动阀示范点s</span>
+						<span>fsdf</span>
+					</div>
+				</div>
+			
+				<div class="roadmap-con">
+					<img src="body2.png"/>
+					<div class="roadmap-text">
+						<span>fasdadasdds</span>
+						<span>fsdf</span>
+					</div>
+				</div>
+				
+				<div class="roadmap-con">
+					<img src="body3.png"/>
+					<div class="roadmap-text">
+						<span>fds</span>
+						<span>f阿斯顿发的sdf</span>
+					</div>
+				</div>
+				<div class="roadmap-con">
+					<img src="body4.png"/>
+					<div class="roadmap-text">
+						<span>fds</span>
+						<span>f阿斯顿发的sdf</span>
+					</div>
+				</div>
+			</div>
+		<div class="contact-usemap">
+		
+		</div>
+	</body>
+</html>

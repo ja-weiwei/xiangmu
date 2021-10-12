@@ -1,0 +1,398 @@
+<html>
+	<head>
+		<title>Predict DAO</title>
+		<style>
+		body,p{
+			margin:0;
+			padding:0;
+		}
+		a{
+			text-decoration:none;
+		}
+		.dao{
+			height:891px;
+			background:url("banner.png")no-repeat;
+		}
+		.content{
+			width:1200px;
+			height:100%;
+			margin:0 auto;
+		}
+		@font-face{
+			font-family: Blackboard;
+			src: url('Sansation_Light.ttf')
+			,url('Sansation_Light.eot'); /* IE9 */
+		}
+
+		.content p:first-of-type{
+			margin-top:45px;
+			display:inline-block;
+			font-family: Blackboard;
+			font-size: 35px;
+			font-weight: bold;
+			background: linear-gradient(90deg, #00DCF0 0%, #F71097 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			
+			margin-right:460px;
+		}
+		.nav{
+			display:inline-block;
+		
+		}
+		.nav a{
+			font-size: 18px;
+			font-family: Montserrat;
+			font-weight: bold;
+			color: rgba(255, 255, 255, 0.5);
+			margin-right:38px;
+		}
+		.nav a:hover{
+			color: #FFF;
+		}
+		.nav a:last-child{
+			margin-right:0px;
+		}
+		.dao img{
+			margin:150px 0 0 54px;
+			height:110px;
+			width:1090px;
+			
+		}
+		.content p:last-of-type{
+			width:1090px;
+			height:100px;
+			font-size: 20px;
+			font-family: PingFang SC;
+			font-weight: bold;
+			color: #FFFFFF;
+			line-height: 34px;
+			opacity: 0.8;
+			text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.8);
+			margin:16px 0 0 75px;
+			text-align:center;
+			
+		}
+		
+		button{
+			width:200px;
+			height:64px;
+			border-radius: 32px;
+			background: linear-gradient(90deg, #00DCF0, #F71097);
+			font-size: 24px;
+			font-family: Montserrat;
+			font-weight: bold;
+			color: #FFFFFF;
+			line-height: 34px;
+			margin:47px 0 0 500px;
+		}
+		
+		
+		
+		
+		
+
+		
+		.facing{
+			height:2027px;
+			background:#220061 url("167.png")no-repeat center bottom;
+			padding:95px 0 0;
+
+		}
+		
+		.facing-top{
+			color:#fff;
+			font-size:24px;
+			width:1200px;
+			height:656px;
+			background:url("背景框1.png")no-repeat;
+			background-size:100% 100%;
+			margin:0 auto;
+			position:relative;
+			
+		}
+		.facing-content{
+			width:1139px;
+			height:100%;
+			margin:0 22px 0 39px;
+			padding-top:166px
+		}
+		.facing-top img{
+			position:absolute;
+			top:208px;
+			left:50%;
+			transform:translateX(-50%);
+		}
+		.p{
+			width:198px;
+			height:71px;
+			font-size: 36px;
+			font-weight: bold;
+			color: #FFFFFF;
+			display:inline-block;
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+			
+		}
+		.left-text{
+			display:inline-block;
+		}
+		.left-text p:nth-child(1){
+			width:379px;
+			height:60px;
+			margin-bottom:84px;
+		}
+		.left-text p:nth-child(2){
+			width:341px;
+			height:86px;
+			margin-bottom:84px;
+			
+		}
+		.left-text p:nth-child(3){
+			width:389px;
+			height:52px;
+			margin-bottom:60px;
+		}
+
+		.right-text{
+			
+			float:right;
+			
+		}
+		.right-text p:nth-child(1){
+			
+			width:372px;
+			height:47px;
+			margin-bottom:120px
+		}
+		.right-text p:nth-child(2){
+			width:350px;
+			height:23px;
+			margin-left:20px;
+			margin-bottom:125px;
+		}
+		.right-text p:nth-child(3){
+			width:327px;
+			height:52px;
+			margin-bottom:50px;
+			margin-left:-30px;
+		}
+		.right-text p:nth-child(4){
+			width:480px;
+			height:52px;
+			margin-left:-411px;
+		}
+		.facing-bottom{
+			width:1200px;
+			height:1076px;
+			background:url("背景2.png");
+			margin:95px auto;
+			color: #FFFFFF;
+		}
+		.facing-bottom-content{
+			width:1160px;
+			height:100%;
+			margin:0 auto;
+			
+		}
+
+		.facing-bottom-flex{
+			padding-top:144px;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:space-around;
+		}
+
+		.public-flex{
+			width:550px;
+			height:250px;
+			border:1px solid red;
+			margin-bottom:64px;
+		}
+		.public-flex p:first-of-type{
+			font-size: 24px;
+			font-weight: bold;
+			line-height: 30px;
+			padding-top:16px;
+		}
+		.public-flex p:last-of-type{
+			height:110px;
+			font-size: 16px;
+			padding-top:24px;
+		}
+		
+		
+		
+		
+		.tokenomics{
+			height: 1087px;
+			background:#220061;
+		}
+		
+		.tokenomics-background{
+			height: 1087px;
+			background:linear-gradient(90deg, rgba(50, 171, 255, .4), rgba(172, 19, 225, .4));
+		}
+		.tokenomics-content{
+			width:1200px;
+			margin:0 auto;
+			border:1px solid red;
+			color: #FFFFFF;
+		}
+
+		.tokenomics-content img:nth-child(1){
+		}
+
+		tokenomics-body{
+			padding-top:300px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.roadmap{
+			height:1702px;
+			width:1920px;
+			background:#220061;
+		}
+		.bottom{
+			height:237px;
+			width:1920px;
+			background:#16003C;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="dao">
+			<div class="content">
+				<p>Predict DAO</p>
+				<div class="nav">
+				<a href="#">Home</a>
+				<a href="#">Features</a>
+				<a href="#">Token</a>
+				<a href="#">Roadmap</a>
+				<a href="#">Contact</a>
+				</div>
+				<img src="大标题.png"/>
+				<p>"The project is a decentralized cross-chain prediction platform designed to provide diversified,Automated, safety-oriented, high-yield, socialized forecasting services, allowing usersFreely initiate predictions and governance of real events, discuss and witness togetherThe result of this interesting story is born!"</p>
+				<button type="button" autofocus onclick="alert('Hello world!')">Whitepaper</button>
+			</div>
+		</div>
+		<div class="facing">
+			<div class="facing-top">
+				<div class="facing-content">
+					<img src="组 165.png" alt="" width="441" height="336">
+					<p class="p">Traditional Prediction</p>
+					<div class="left-text">
+						<p>Centralization, the platform 
+							manipulates issues and results
+						</p>
+						<p>Limitations, limited to simple 
+							price predictions, or certain 
+							event types
+						</p>
+						<p>Single income, platform currency 
+							is monopolized by platform and 
+							investors
+						</p>
+						
+					</div>
+					<div class="right-text">
+						<p>Only enables prediction without 
+							communications 
+						</p>
+						<p>Lack of liquidity in orderbook</p>
+						<p>The operating experience is 
+							complicated and unfriendly
+						</p>
+						<p>Only support one Blockchain network</p>
+					</div>
+				</div>
+			</div>
+			<div class="facing-bottom">
+				<div class="facing-bottom-content">
+					<div class="facing-bottom-flex">
+					<div class="flex-1 public-flex">
+					
+						<p>Spontaneous prediction</p>
+						<p>
+							The user initiates a prediction issue, and the initiator can get 
+							a certain percentage of prediction rewards, prompting Users 
+							spontaneously initiate a wide range of interesting topics and 
+							promote them to attract more people’s attention
+						</p>
+					</div>
+					<div class="flex-2 public-flex">
+						<img src="图层 31.png">
+						<p>Multiple benefits</p>
+						<p>
+							In addition to predicting correct rewards, users also predict mining 
+							rewards, staking Rewards, forecast leaderboard rewards, liquidity 
+							provision and mining rewards, etc. In addition,There are additional 
+							rewards for predicting topic sponsors and community nodes. 
+						</p>
+					</div>
+					<div class="flex-3 public-flex">
+						<img src="图层 27.png">
+						<p>Community Autonomy</p>
+						<p>
+							Any user can become a node by staking a certain governance 
+							currency. The governance node uploads the results through the 
+							oracle machine and accepts the whole network supervision, and 
+							part of the platform revenue is shared. 
+						</p>
+					</div>
+					<div class="flex-4 public-flex">
+						<img src="图层 40.png">
+						<p>Asset cross-chain</p>
+						<p>
+							Based on Polkadot's cross-chain agreement, the platform will 
+							support the participation of cross-chain assets, condense the 
+							resources and energy of each chain, and facilitate the participation 
+							of more users. It will become an independent parachain in the future
+						</p>
+					</div>
+					<div class="flex-5 public-flex">
+						<img src="图层 28.png">
+						<p>Social System</p>
+						<p>
+							The platform will not only be a cold forecast, but also a enthusiastic 
+							way of socializing. Users will be able to discuss topics through 
+							predictions, and there will be a forum-style communication system 
+							with social functions such as friends and group chats.
+						</p>
+					</div>
+					<div class="flex-6 public-flex">
+						<img src="图层 32.png">
+						<p>PFMM</p>
+						<p>
+							Refer to AMM's new type of fixed product automated market maker, 
+							which automatically adjusts and predicts the value of tokens, no longer 
+							requires in-depth support of thin orders and greatly increases liquidity
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tokenomics">
+		<div class="tokenomics-background">
+			<div class="tokenomics-content">
+				<img src="标题.png">
+				<p>The governance token of Predict Dao prediction market is called POT for short. The total amount is 21 million and no additional issuance is allowed. POT will be used to participate in the governance of the prediction market, including but not limited to voting for initial proposals, staking to become nodes, reporting nodes, voting for platform governance, etc.</p>
+				<div class="tokenomics-body">
+					<img src="组 163.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</html>

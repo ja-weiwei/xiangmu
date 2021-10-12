@@ -1,0 +1,847 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.geduan {
+    width: 60px;
+    height: 6px;
+    background: #D80019;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header span,
+.head-content h1,
+.head-content h3,
+.flexb-left span,
+.flexb-left p,
+.head-content .bubb,
+.bff h4,
+.bff p,
+.fire-content h2,
+.fire-content h5,
+.fire-content p,
+.fire-flex .fff h4,
+.left-lle h2,
+.left-lle h4,
+.left-lle p,
+.lending-content h2,
+.lending-content h4,
+.len-left p,
+.lending-biaodan h3,
+.roadmap h2,
+.roadmap h5,
+ul li,
+.team-content h2,
+.team-content h5,
+.flexx span,
+.team-flexb h6,
+.partners-content h2,
+.partners-content p,
+.partners-content span {
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+header {
+    height: 40px;
+    background: #D73F3D;
+    border: 1px solid #303030;
+    text-align: center;
+    line-height: 40px;
+}
+
+header span {
+    margin-right: 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.head {
+    background: url("../img/a.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.head .head-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 17px 0 9px 0;
+}
+
+.head-content .head-flexa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-flexa .ays {
+    margin-top: 32px;
+}
+
+.head-flexa .ays a {
+    margin-right: 47px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #888888;
+}
+
+.ays .buaa {
+    width: 124px;
+    height: 40px;
+    background: #D73F3D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.head-content h1,
+.head-content h3 {
+    text-align: center;
+}
+
+.head-content h1 {
+    height: 58px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 56px;
+    margin: 141px 0 42px 0;
+}
+
+.head-content h3 {
+    height: 28px;
+    font-size: 36px;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 31px;
+    margin-bottom: 59px;
+}
+
+.head-content .bubb {
+    width: 240px;
+    height: 60px;
+    background: #FF164E;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 208px;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.head-flexb {
+    width: 1200px;
+    height: 680px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.head-flexb .flexb-left {
+    width: 340px;
+    background: #1F1F1F url("../img/huo.png") no-repeat left bottom;
+    padding: 57px 49px 0 38px;
+}
+
+.flexb-left span {
+    width: 223px;
+    height: 28px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.flexb-left .geduana {
+    margin: 35px 0;
+}
+
+.flexb-left p {
+    width: 252px;
+    height: 98px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    opacity: 0.8;
+}
+
+.head-flexb .flexb-right {
+    background: #242424;
+    padding: 20px 20px 45px 47px;
+}
+
+.flexb-right .bfx-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bfx-flex .bff {
+    padding-top: 9px;
+}
+
+.bfx-flex .bfa,
+.bfx-flex .bfc {
+    width: 394px;
+}
+
+.bfx-flex .bfb {
+    height: 380px;
+    background: #191919;
+}
+
+.bfx-flex .bfc,
+.bfx-flex .bfd {
+    margin-top: 12px;
+}
+
+.bfx-flex .bfb,
+.bfx-flex .bfd {
+    width: 400px;
+}
+
+.bff img {
+    margin-left: 14px;
+}
+
+.bff h4 {
+    height: 23px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 15px 0 21px 28px;
+}
+
+.bff p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    opacity: 0.5;
+    margin-left: 28px;
+    line-height: 26px;
+}
+
+.bfa p {
+    width: 339px;
+    height: 76px;
+}
+
+.bfb p {
+    width: 347px;
+    height: 217px;
+}
+
+.bfc p {
+    width: 316px;
+    height: 76px;
+}
+
+.bfd p {
+    width: 341px;
+    height: 76px;
+}
+
+
+/* Fire 部分 */
+
+.fire {
+    background: #191919;
+    width: 100%;
+}
+
+.fire .fire-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 97px 0 107px 0;
+}
+
+.fire-content h2 {
+    height: 36px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+}
+
+.fire-content .geduanb {
+    margin: 19px auto 27px;
+}
+
+.fire-content h5 {
+    height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 19px;
+    margin-bottom: 57px;
+}
+
+.fire-content .fire-flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.fire-flex .fff {
+    width: 380px;
+    height: 372px;
+    background: #242424;
+    border-radius: 10px;
+    border-bottom: 10px solid red;
+    padding-top: 37px;
+    box-sizing: border-box;
+}
+
+.fire-flex .fff h4 {
+    height: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 22px 0 34px 0;
+    line-height: 23px;
+}
+
+.fire-flex .fff p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    opacity: 0.5;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.fire-flex .ffa p {
+    width: 344px;
+    height: 77px;
+}
+
+.fire-flex .ffb p {
+    width: 329px;
+    height: 77px;
+}
+
+.fire-flex .ffc p {
+    width: 334px;
+    height: 137px;
+}
+
+
+/* Crooss 部分 */
+
+.crooss {
+    display: flex;
+}
+
+.crooss .crooss-left,
+.crooss .crooss-right {
+    height: 510px;
+    position: relative;
+    top: 0;
+}
+
+.crooss .crooss-left {
+    background: #242424;
+    right: 0;
+    width: 47%;
+}
+
+.crooss .crooss-right {
+    background: #1F1F1F;
+    left: 0;
+    width: 53%;
+}
+
+.crooss-left .left-lle {
+    width: 554px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 85px;
+    box-sizing: border-box;
+}
+
+.left-lle h2 {
+    width: 403px;
+    height: 36px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.left-lle .geduanc {
+    margin: 22px 0 29px 0;
+}
+
+.left-lle h4 {
+    width: 412px;
+    height: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.left-lle img:first-of-type {
+    margin: 31px 0 19px -13px;
+}
+
+.left-lle img:last-of-type {
+    position: absolute;
+    bottom: 65px;
+    right: 69px;
+}
+
+.left-lle p {
+    width: 430px;
+    height: 77px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 131px;
+}
+
+.crooss-right .right-rre {
+    width: 646px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 143px 0 0 23px;
+    box-sizing: border-box;
+}
+
+
+/* Lending 部分 */
+
+.lending {
+    background: #191919 url("../img/b.png") no-repeat center 320px;
+    background-size: 100% auto;
+}
+
+.lending .lending-content {
+    width: 1200px;
+    padding: 128px 0 140px 0;
+    margin: 0 auto;
+}
+
+.lending-content h2 {
+    width: 530px;
+    height: 38px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.geduand {
+    margin: 31px 0 21px;
+}
+
+.lending-content h4 {
+    height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 19px;
+}
+
+.lending-content .lending-imga {
+    margin: 31px 0 19px -35px;
+}
+
+.lending-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0;
+}
+
+.lending-flex .len-left p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.lending-flex .len-left p:first-of-type {
+    width: 346px;
+    height: 128px;
+}
+
+.lending-flex .len-left p:nth-child(2) {
+    width: 345px;
+    height: 100px;
+}
+
+.lending-flex .len-left p:last-of-type {
+    width: 357px;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.lending-flex img {
+    margin-top: -25px;
+}
+
+.lending-content .lending-imgb {
+    margin: 0 0 130px 380px;
+}
+
+.lending-content .lending-biaodan {
+    width: 1200px;
+    height: 707px;
+    background: #242424;
+    padding: 46px 23px 30px;
+    box-sizing: border-box;
+}
+
+.lending-biaodan .biaodan-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.biaodan-flex .vva,
+.biaodan-flex .vvb {
+    width: 240px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.biaodan-flex .vvb {
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.vva span,
+.vvb span {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #333333;
+}
+
+.vva span {
+    line-height: 60px;
+}
+
+.vvb span {
+    line-height: 20px;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #333333;
+}
+
+.lending-biaodan h3 {
+    width: 584px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 62px auto 43px;
+    line-height: 29px;
+}
+
+.lending-biaodan .biao-head {
+    height: 40px;
+    background: #D73F3D;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+tr th,
+td {
+    border: 2px solid #363636;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+tr th {
+    width: 170px;
+    height: 40px;
+    background: #3C2727;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+tr td {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.mt {
+    border-collapse: collapse;
+}
+
+.huang {
+    color: #FE9900;
+}
+
+.hong {
+    color: #D73F3D;
+}
+
+
+/*  Roadmap 部分 */
+
+.roadmap {
+    height: 770px;
+    background: url("../img/ditu.png") no-repeat center center;
+}
+
+.roadmap h2 {
+    width: 174px;
+    height: 34px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 94px auto 20px;
+}
+
+.roadmap .geduane {
+    margin: 0 auto 30px;
+}
+
+.roadmap h5 {
+    height: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: center;
+    margin-bottom: 64px;
+    line-height: 19px;
+}
+
+.roadmap ul {
+    text-align: center;
+    height: 40px;
+}
+
+.roadmap .liubai {
+    height: 465px;
+    background: lightblue;
+    margin: 20px 0;
+    opacity: 0.09;
+}
+
+.roadmap ul li {
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+    line-height: 20px;
+    height: 40px;
+}
+
+ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 16px;
+    text-align: left;
+}
+
+ul li::before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FF1712;
+    display: block;
+}
+
+
+/* Team Members 部分 */
+
+.team {
+    background: url("../img/cybj.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.team-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0 140px;
+}
+
+.team-content h2 {
+    text-align: center;
+    height: 28px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.team-content .geduanf {
+    margin: 26px auto 32px;
+}
+
+.team-content h5 {
+    text-align: center;
+    height: 19px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 18px;
+    margin-bottom: 46px;
+}
+
+.team-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.geduanf {
+    margin: 0 auto;
+}
+
+.team-flex .flexx {
+    width: 370px;
+    background: #191919;
+    box-shadow: 0px 2px 30px 0px #191919;
+    padding: 25px 0 50px 30px;
+    box-sizing: border-box;
+}
+
+.flexx h2,
+.flexx h5 {
+    text-align: left;
+}
+
+.flexx h2 {
+    margin-top: 15px;
+}
+
+.flexx h5 {
+    font-weight: bold;
+    color: #FF0000;
+    margin: 20px 0 0;
+}
+
+.flexx span {
+    margin: 28px 0 22px;
+    display: block;
+    height: 13px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #FBF0F0;
+}
+
+.flexx ul li {
+    height: 13px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-bottom: 10px;
+    color: #FBF0F0;
+}
+
+.team-flexb h6 {
+    width: 143px;
+    height: 17px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team-flexc ul .cul-li {
+    margin-bottom: 30px;
+}
+
+
+/*  Partners 部分 */
+
+.partners {
+    background: #191919;
+}
+
+.partners .partners-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0 165px;
+}
+
+.partners-content h2 {
+    text-align: center;
+    height: 27px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.partners-content .geduang {
+    margin: 26px auto 35px;
+}
+
+.partners-content h2:last-of-type {
+    margin-top: 120px;
+}
+
+.partners-content .quna {
+    width: 712px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 38px;
+}
+
+.partners-content .qunb {
+    width: 956px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.partners-content p {
+    width: 700px;
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto 35px;
+    line-height: 38px;
+}
+
+.partners-content .fangkuang {
+    width: 750px;
+    height: 90px;
+    background: #242424;
+    margin: 0 auto;
+}
+
+.fangkuang span {
+    display: block;
+    text-align: center;
+    line-height: 90px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.partners-content .partners-flex {
+    width: 600px;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
